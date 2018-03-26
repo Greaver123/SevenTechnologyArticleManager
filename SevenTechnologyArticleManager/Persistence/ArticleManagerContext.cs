@@ -5,10 +5,10 @@ namespace SevenTechnologyArticleManager
     using System.ComponentModel.DataAnnotations.Schema;
     using System.Linq;
 
-    public partial class ArticleManagerContext : DbContext
+    public partial class ProductManagerContext : DbContext
     {
-        public ArticleManagerContext()
-            : base("name=ArticleManagerContext")
+        public ProductManagerContext()
+            : base("name=ProductManagerContext")
         {
         }
 
